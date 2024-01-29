@@ -20,24 +20,28 @@ Express.js
 -Certifique-se de ter o Node.js instalado.
 
 -Clone o repositório
+
 -Instale as dependências do projeto
+
 -Inicie o servidor
+
 -A API estará disponível em http://localhost:3000.
 
 ## Endpoints da API
-###Listar Contas Bancárias
+
+### Listar Contas Bancárias
 GET /contas?senha_banco=Cubos123Bank
 Lista todas as contas bancárias existentes.
 
-###Criar Conta Bancária
+### Criar Conta Bancária
 POST /contas
 Cria uma nova conta bancária.
 
-###Atualizar Usuário da Conta Bancária
+### Atualizar Usuário da Conta Bancária
 PUT /contas/:numeroConta/usuario
 Atualiza os dados do usuário de uma conta bancária.
 
-###Excluir Conta
+### Excluir Conta
 DELETE /contas/:numeroConta
 Exclui uma conta bancária existente.
 
